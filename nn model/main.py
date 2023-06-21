@@ -11,12 +11,10 @@ from collections import defaultdict, Counter
 from torch.cuda.amp import autocast, GradScaler
 from torch.optim import *
 from torch.utils.data import Dataset, DataLoader
-from lion import Lion
 from sklearn.model_selection import train_test_split
 from models import *
 from utils import *
 from evaluate import evaluate
-from test import test
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 def main(args):
@@ -105,7 +103,6 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', default=512, type=int)
     parser.add_argument('--lr', default=0.001, type=float)
     parser.add_argument('--patience', default=1, type=int)
-    parser.add_argument('--lion', default=0, type=int)
     parser.add_argument('--wd', default=0.001, type=float)
     parser.add_argument('--save_number', default=1, type=int)
     parser.add_argument('--train', default=1, type=int)
