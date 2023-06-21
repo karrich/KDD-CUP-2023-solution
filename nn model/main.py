@@ -13,7 +13,7 @@ from torch.optim import *
 from torch.utils.data import Dataset, DataLoader
 from lion import Lion
 from sklearn.model_selection import train_test_split
-from models_simcse import *
+from models import *
 from utils import *
 from evaluate import evaluate
 from test import test
