@@ -11,3 +11,6 @@ The recall formula for multi-hop recall and single-hop recall is the same,
 except that the matrix of multi-hop recall is generated from the matrix of single-hop recall:
 
 ![image](https://github.com/karrich/KDD-CUP-2023-solution/assets/57396778/e2521824-344b-4ef2-9cd1-8eb5feee8431)
+
+# detail
+We found that for a session, we want to predict the label, it must not have appeared in the session.
