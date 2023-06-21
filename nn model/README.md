@@ -24,3 +24,7 @@ This means that for a session embedding, its negative sample includes other sess
 ## test data
 When building the training data, we used the test dataset.
 And we experimentally found that this data is very important.
+# Recall
+Rule recalls have been made prior to recalls using the MLP model. 
+Rule Recall provides up to 200 candidates per session,
+while MLP Recall does a supplemental recall to ensure that each session has 250 candidates.
