@@ -1,5 +1,7 @@
 # KDD-CUP-2023-solution
 In KDD Cup '23, the method we used received 6th place in Task 1 and 4th place in Task 2.
+# Note
+To improve the readability of the code, I changed some parts of the code. This can lead to bugs in some places. If you find that the results are difficult to reproduce, or you find bugs that are difficult to fix, you can ask by email.
 # Requirements:
 The requirements of experiment environment are listed in requirements.txt.
 # Overview
